@@ -15,26 +15,30 @@
   </head>
   <body>
     <header>
-      <img src="img/logo.svg" alt="Tom's Jazz  School" />
-      <nav class="mt-1 mx-auto">
-        <a href="">Início</a>
-        <a href="">Cursos</a>
-        <a href="">Eventos</a>
-        <a href="">Contato</a>
-      </nav>
-      <a href="" class="button mb-1 mt-1 mx-auto">Se Inscreva</a>
+      <div class="container">
+        <img src="img/logo.svg" alt="Tom's Jazz  School" />
+        <nav>
+          <a href="">Início</a>
+          <a href="">Cursos</a>
+          <a href="">Eventos</a>
+          <a href="">Contato</a>
+        </nav>
+        <a href="" class="button mb-1 mt-1 mx-auto">Se Inscreva</a>
+      </div>
     </header>
     <main>
       <section class="hero-section">
-        <img src="img/hero-img.svg" alt="Banda de Jazz Tocando" />
-        <div>
-          <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
-          <p class="mt-2 mb-2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
-          </p>
-          <a href="" class="button">Comece agora</a>
+        <div class="container row-reverse">
+          <img src="img/hero-img.svg" alt="Banda de Jazz Tocando" />
+          <div>
+            <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+            <p class="mt-2 mb-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <a href="" class="button">Comece agora</a>
+          </div>
         </div>
       </section>
       <section class="courses-section">
@@ -90,24 +94,26 @@
       </section>
     </main>
     <footer>
-      <div>
-        <img src="img/logo.svg" alt="Tom's Jazz  School" />
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's
-        </p>
-      </div>
-      <nav>
-        <a href="">Início</a>
-        <a href="">Cursos</a>
-        <a href="">Eventos</a>
-        <a href="">Contato</a>
-      </nav>
-      <form class="newsletter-form">
-        <label for="email mb-1">Receba materiais gratuitos no seu email</label>
-        <input type="email" name="email" id="email" placeholder="Digite o seu email" class="mb-1"/>
-        <button class="button mb-2">Quero receber</button>
-      </form>
+      <div class="container">
+        <div class="about-column">
+          <img src="img/logo.svg" alt="Tom's Jazz  School" class="mt-1 mb-1" />
+          <p class="mb-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+          </p>
+        </div>
+        <nav class="mb-2">
+          <a href="">Início</a>
+          <a href="">Cursos</a>
+          <a href="">Eventos</a>
+          <a href="">Contato</a>
+        </nav>
+        <form class="newsletter-form">
+          <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+          <input type="email" name="email" id="email" placeholder="Digite o seu email" class="mb-1"/>
+          <button class="button mb-2">Quero receber</button>
+        </form>
+      </div>      
     </footer>
   </body>
 </html>
